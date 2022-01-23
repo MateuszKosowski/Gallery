@@ -1,0 +1,229 @@
+body
+{
+    background-color: #222;
+    font-size: 18px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#kontener
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    text-align: center;
+    padding: 0px;
+}
+
+.grafika
+{
+    display: inline-block;
+    width: 696px;
+    text-align: center;
+}
+
+.grafika p
+{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+h1
+{
+    color: #0066FF;
+    width: 1400px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 3px #000;
+    border: 3px solid #0066FF;
+    border-radius: 5px;
+    box-shadow: 0 0 4px #000;
+}
+
+img
+{
+    width: 600px;
+    height: 450px;
+    border: 1px solid #000;
+}
+
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #fff
+}
+
+a:visited
+{
+    color: #fff;
+}
+
+
+#stopka
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+#zdj1
+{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 1s ease-in-out;
+}
+
+#zdj1:hover
+{
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+
+#zdj2
+{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 2s ease-in-out;
+
+}
+
+#zdj2:hover
+{
+   transform: rotate(360deg) rotateX(360deg) scale(0.5);
+}
+
+#zdj3
+{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 2s ease-in-out;
+}
+
+.narzutka
+{
+    position: relative;
+    width: 602px;
+    height: 452px;
+    
+}
+
+.narzutka2
+{
+    position: relative;
+    width: 602px;
+    height: 452px;
+    
+}
+
+.narzutka .link
+{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #111;
+    text-align: center;
+    bottom: 0px;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+.narzutka2 .link2
+{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 292px;
+    background-color: rgb(231, 118, 13);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 160px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.narzutka2:hover .link2
+{
+    opacity: 0.7;
+}
+
+#zdj4:hover img
+{
+    border: 1px solid #fff;
+}
+
+.narzutka:hover .link
+{
+    opacity: 0.8;
+}
+
+#zdj3:hover img
+{
+    border: 1px solid #fff;
+}
+
+#zdj4
+{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#zdj5
+{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#zdj5 img
+{
+    transition: transform 1s ease-in-out;
+}
+
+#zdj5:hover img
+{
+    transform: scale(1.3);
+}
+
+#zdj6
+{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#zdj6:hover img
+{
+    transform: scale(1.3) rotate(15deg);
+}
+
+#zdj6 img
+{
+    transition: all 1s ease-in-out;
+}
